@@ -138,11 +138,11 @@
 							"typeProperties": {
 								"notebookPath": "/MyWorkspace/BaseNotebook",
 								"baseParameters": {
-									"table_schema": {
+									"tableSchema": {
 										"value": "@item().table_schema",
 										"type": "Expression"
 									},
-									"table_name": {
+									"tableName": {
 										"value": "@item().table_name",
 										"type": "Expression"
 									},
