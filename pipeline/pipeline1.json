@@ -138,11 +138,11 @@
 							"typeProperties": {
 								"notebookPath": "/MyWorkspace/BaseNotebook",
 								"baseParameters": {
-									"tableSchema": {
+									"table_schema": {
 										"value": "@item().table_schema",
 										"type": "Expression"
 									},
-									"tableName": {
+									"table_name": {
 										"value": "@item().table_name",
 										"type": "Expression"
 									},
@@ -153,7 +153,7 @@
 								}
 							},
 							"linkedServiceName": {
-								"referenceName": "AzureDatabricks1",
+								"referenceName": "AzureDatabricks",
 								"type": "LinkedServiceReference"
 							}
 						}
